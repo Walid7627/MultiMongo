@@ -1,0 +1,194 @@
+{
+  "groups": [
+    {
+      "name": "primary",
+      "type": "org.springframework.boot.autoconfigure.mongo.MongoProperties",
+      "sourceType": "com.connectors.demo.config.ClientConfMongoTemplate",
+      "sourceMethod": "getPrimary()"
+    },
+    {
+      "name": "primary.gridfs",
+      "type": "org.springframework.boot.autoconfigure.mongo.MongoProperties$Gridfs",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties",
+      "sourceMethod": "getGridfs()"
+    },
+    {
+      "name": "secondary",
+      "type": "org.springframework.boot.autoconfigure.mongo.MongoProperties",
+      "sourceType": "com.connectors.demo.config.BackendMongoTemplate",
+      "sourceMethod": "getSecondary()"
+    },
+    {
+      "name": "secondary.gridfs",
+      "type": "org.springframework.boot.autoconfigure.mongo.MongoProperties$Gridfs",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties",
+      "sourceMethod": "getGridfs()"
+    },
+    {
+      "name": "spring.data.mongodb",
+      "type": "com.connectors.demo.properties.MultipleMongoProperties",
+      "sourceType": "com.connectors.demo.properties.MultipleMongoProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "primary.authentication-database",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "primary.auto-index-creation",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "primary.database",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "primary.field-naming-strategy",
+      "type": "java.lang.Class<?>",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "primary.gridfs.bucket",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties$Gridfs"
+    },
+    {
+      "name": "primary.gridfs.database",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties$Gridfs"
+    },
+    {
+      "name": "primary.host",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "primary.password",
+      "type": "java.lang.Character[]",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "primary.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "primary.replica-set-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "primary.uri",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "primary.username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "primary.uuid-representation",
+      "type": "org.bson.UuidRepresentation",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "secondary.authentication-database",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "secondary.auto-index-creation",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "secondary.database",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "secondary.field-naming-strategy",
+      "type": "java.lang.Class<?>",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "secondary.gridfs.bucket",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties$Gridfs"
+    },
+    {
+      "name": "secondary.gridfs.database",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties$Gridfs"
+    },
+    {
+      "name": "secondary.host",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "secondary.password",
+      "type": "java.lang.Character[]",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "secondary.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "secondary.replica-set-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "secondary.uri",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "secondary.username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "secondary.uuid-representation",
+      "type": "org.bson.UuidRepresentation",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "spring.data.mongodb.primary",
+      "type": "org.springframework.boot.autoconfigure.mongo.MongoProperties",
+      "sourceType": "com.connectors.demo.properties.MultipleMongoProperties"
+    },
+    {
+      "name": "spring.data.mongodb.secondary",
+      "type": "org.springframework.boot.autoconfigure.mongo.MongoProperties",
+      "sourceType": "com.connectors.demo.properties.MultipleMongoProperties"
+    },
+    {
+      "name": "primary.grid-fs-database",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties",
+      "deprecated": true,
+      "deprecation": {
+        "replacement": "spring.data.mongodb.gridfs.database"
+      }
+    },
+    {
+      "name": "secondary.grid-fs-database",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties",
+      "deprecated": true,
+      "deprecation": {
+        "replacement": "spring.data.mongodb.gridfs.database"
+      }
+    }
+  ],
+  "hints": []
+}
