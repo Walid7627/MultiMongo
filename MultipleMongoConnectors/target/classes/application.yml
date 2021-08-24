@@ -1,9 +1,0 @@
-spring:
-  data:
-    mongodb:
-      primary:
-        uri: mongodb://localhost:27017/gmsk-test
-        database: gmsk-test
-      secondary:
-        uri: mongodb://localhost:27018/gmsk-test
-        database: gmsk-test
