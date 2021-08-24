@@ -2,12 +2,8 @@ spring:
   data:
     mongodb:
       primary:
-        host: localhost
-        port: 27017
-        uri: mongodb://localhost:27017/gmsk-cc
-        database: gmsk-cc
+        uri: mongodb://localhost:27017/gmsk-test
+        database: gmsk-test
       secondary:
-        host: localhost
-        port: 27017
-        uri: mongodb://localhost:27018/gmsk-cc2
-        database: gmsk-cc2
+        uri: mongodb://localhost:27018/gmsk-test
+        database: gmsk-test

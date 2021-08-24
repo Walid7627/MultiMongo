@@ -4,5 +4,5 @@ import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 import reactor.core.publisher.Mono;
 
 public interface ClientConfRepository extends ReactiveMongoRepository<ClientConf, String> {
-    Mono<ClientConf> findByAppId(String id);
+    Mono<ClientConf> findById(String id);
 }

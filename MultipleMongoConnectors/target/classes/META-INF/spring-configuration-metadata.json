@@ -3,7 +3,7 @@
     {
       "name": "primary",
       "type": "org.springframework.boot.autoconfigure.mongo.MongoProperties",
-      "sourceType": "com.connectors.demo.config.ClientConfMongoTemplate",
+      "sourceType": "com.connectors.demo.config.ClientConfTemplate",
       "sourceMethod": "getPrimary()"
     },
     {
@@ -15,7 +15,7 @@
     {
       "name": "secondary",
       "type": "org.springframework.boot.autoconfigure.mongo.MongoProperties",
-      "sourceType": "com.connectors.demo.config.BackendMongoTemplate",
+      "sourceType": "com.connectors.demo.config.BackendTemplate",
       "sourceMethod": "getSecondary()"
     },
     {
@@ -26,8 +26,8 @@
     },
     {
       "name": "spring.data.mongodb",
-      "type": "com.connectors.demo.properties.MultipleMongoProperties",
-      "sourceType": "com.connectors.demo.properties.MultipleMongoProperties"
+      "type": "com.connectors.demo.properties.MultipleProperties",
+      "sourceType": "com.connectors.demo.properties.MultipleProperties"
     }
   ],
   "properties": [
@@ -164,12 +164,12 @@
     {
       "name": "spring.data.mongodb.primary",
       "type": "org.springframework.boot.autoconfigure.mongo.MongoProperties",
-      "sourceType": "com.connectors.demo.properties.MultipleMongoProperties"
+      "sourceType": "com.connectors.demo.properties.MultipleProperties"
     },
     {
       "name": "spring.data.mongodb.secondary",
       "type": "org.springframework.boot.autoconfigure.mongo.MongoProperties",
-      "sourceType": "com.connectors.demo.properties.MultipleMongoProperties"
+      "sourceType": "com.connectors.demo.properties.MultipleProperties"
     },
     {
       "name": "primary.grid-fs-database",
